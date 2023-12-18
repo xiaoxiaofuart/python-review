@@ -1,0 +1,11 @@
+python中使用pip进行仓库的管理
+
+1.升级pip：pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
+2.列出当前仓库安装了哪些包： pip list
+3.检查当前包是否是最新的： pip list outdate
+4.安装包： pip install <package_name>
+
+
+虚拟环境说明：
+1.为了满足各个项目对python各个包的版本支持，python支持创建一个虚拟环境，可以给每个python项目进行选择
+2.创建一个env

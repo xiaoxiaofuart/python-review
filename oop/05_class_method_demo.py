@@ -13,6 +13,17 @@ class Animal:
         print(f"{self.name} eat the food is {food}")
 
 
+    #一般用于创建对象
+    @classmethod
+    def get_instance(self):
+        return self
+
+
+
 
 if __name__ == '__main__':
     Animal.eat("rice")
+
+    animal_instance = Animal.get_instance()
+
+    print(animal_instance)
